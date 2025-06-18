@@ -474,8 +474,6 @@ main {
 }
 
 .warning {
-    width: 100vw;
-    height: 100vh;
     background-color: rgb(15, 15, 15);
     display: none;
     position: fixed;
@@ -501,7 +499,7 @@ main {
     }
 
     .warning {
-        display: flex;
+        display: flex !important;
     }
 
     header {
